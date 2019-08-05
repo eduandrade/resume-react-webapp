@@ -16,12 +16,19 @@
   font-size: calc(10px + 2vmin);
 }
 
+.profile-picture img {
+  float: left;
+  display: block;
+  padding: 40px;
+}
+
 .personal-info {
   text-align: center;
   margin: 20px;
   border: 2px dashed yellowgreen;
   border-radius: 5px;
-  width: 50%;
+  width: 35%;
+  overflow: auto;
 }
 
 .summary {

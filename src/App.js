@@ -32,6 +32,9 @@ class PersonalInfo extends React.Component {
   render() {
     return (
       <div className="personal-info">
+        <div className="profile-picture">
+          <img src="https://placehold.it/75" alt="Avatar" />
+        </div>
         <h2>
           Name: {this.state.data.fistName} {this.state.data.lastName}
         </h2>
